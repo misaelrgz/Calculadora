@@ -1,0 +1,33 @@
+.calculadora{     /* llamar class */ 
+    display: block;
+    margin:5px auto; /* Centra los datos de esa clase */ 
+    padding: 20px;
+    background-color: rgb(89, 96, 96);
+    width:350px;
+    height:500px;
+    border-radius: 25px;
+
+}
+
+.calculadora td button{ /*todo lo que este dentro de calculadora de los td sea boton aplicar estilo*/
+    margin: 5px auto;
+    display:block;
+    width: 70px;
+    height: 70px;
+    font-size:25px;
+
+}
+
+#resultado{
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
